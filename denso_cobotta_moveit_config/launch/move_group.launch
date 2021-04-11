@@ -56,9 +56,9 @@
   </node>
 
   <!-- Run the joint_state_publisher for listening joint_state topic. -->
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+  <!-- <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="publish_frequency" type="double" value="125.0" />
     <rosparam param="source_list">[/cobotta/joint_states]</rosparam>
-  </node>
+  </node> -->
 
 </launch>
